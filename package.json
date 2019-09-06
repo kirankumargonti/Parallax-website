@@ -1,0 +1,22 @@
+{
+  "name": "parallax-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirankumargonti/Parallax-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirankumargonti/Parallax-website/issues"
+  },
+  "homepage": "https://github.com/kirankumargonti/Parallax-website#readme",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
