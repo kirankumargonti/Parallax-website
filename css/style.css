@@ -1,0 +1,79 @@
+body ,html {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.pic1 {
+    background-image: url('../images/hello1.jpeg');
+    min-height: 90%;
+}
+.pic2 {
+    background-image: url('../images/hello2.jpg');
+    min-height: 450px;
+
+}
+.pic3 {
+    background-image: url('../images/hello3.jpg');
+    min-height: 400px;
+}
+
+.pic1,.pic2,.pic3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.9;
+    background-attachment: fixed;
+}
+.text1,.text2,.text3 {
+    position: absolute; 
+    width: 100%;
+    font-family:Comic Sans MS ;
+    text-align: center;
+}
+.text1 {
+    
+    top: 50%;
+    color:#fff;
+    font-size:70px;
+    letter-spacing: 1rem;   
+    font-weight: 900;
+}
+.text2 {
+    font-size:30px;
+    top: 20%;
+    color: #000;
+    font-weight:300;
+}
+.text3 {
+    top: 20%;
+    font-size:30px;   
+    font-weight:300;
+    color: #000;
+}
+section {
+    text-align:center;
+    padding:30px 70px;
+}
+.one {
+    background-color: beige;
+    color: black; 
+}
+.two {
+    background-color: darkslategray;
+    color: #fff;
+}
+.three {
+    background-color: darksalmon;
+    color:#000;
+}
+ h1 {
+    font-family: sans-serif;
+    font-size: 46px;
+
+}
+ p {
+    
+    font-family: serif;
+    font-size: 23px;
+}
